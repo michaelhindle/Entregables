@@ -2,6 +2,21 @@
 .T1{
     color: blue;
     text-align: center;
+    margin-block: initial;
+    border: solid blue;
+    max-width: 200px;
+    padding-left: 50%;
+}
+.raya-izq{
+    border: solid rgb(82, 173, 54);
+    border-width: 2px;
+    float: left;
+}
+.raya-der{
+    border: solid rgb(165, 71, 71);
+    border-width: 2px;
+    margin-left: 30%;
+    float: right;
 }
 form{
     text-align: left;
