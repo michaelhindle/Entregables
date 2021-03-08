@@ -5,10 +5,9 @@
     margin-block: initial;
     border: solid blue;
     max-width: 200px;
-    padding-left: 50%;
 }
 .raya-izq{
-    border: solid rgb(82, 173, 54);
+    border: solid rgb(30, 255, 0);
     border-width: 2px;
     float: left;
 }
