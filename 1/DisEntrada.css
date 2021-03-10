@@ -15,6 +15,20 @@
     
     width: 42,5%;
 }
+nav{
+    background: purple;
+    padding: 10px;
+}
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
 form{
     background: rgb(255, 255, 255);
     text-align: left;
@@ -22,7 +36,6 @@ form{
     margin-right: 40%;
 }
 legend{
-    
     text-align: center;
 }
 body{
