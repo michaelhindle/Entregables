@@ -17,7 +17,9 @@
 }
 nav{
     background: purple;
-    padding: 10px 373px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 .nav-enlace{
     display: inline-block;
@@ -29,15 +31,12 @@ nav{
 .nav-enlace:hover{
     background: rosybrown;
 }
-.inicio{
-    margin-right: 150px;
+@media(max-width: 600px){
+    nav{
+        background: rgb(72, 255, 0);
+    }
 }
-.nosotros{
-    margin-right: 150px;
-}
-.servicios{
-    margin-right: 150px;
-}
+
 form{
     background: rgb(255, 255, 255);
     text-align: left;
