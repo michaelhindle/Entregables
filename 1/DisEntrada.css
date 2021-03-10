@@ -17,7 +17,7 @@
 }
 nav{
     background: purple;
-    padding: 10px;
+    padding: 10px 373px;
 }
 .nav-enlace{
     display: inline-block;
@@ -28,6 +28,15 @@ nav{
 }
 .nav-enlace:hover{
     background: rosybrown;
+}
+.inicio{
+    margin-right: 150px;
+}
+.nosotros{
+    margin-right: 150px;
+}
+.servicios{
+    margin-right: 150px;
 }
 form{
     background: rgb(255, 255, 255);
