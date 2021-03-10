@@ -1,9 +1,13 @@
 
 body{
     font-family: 'Akaya Telivigala', cursive;
-   /*background: rgb(122, 115, 115);*/
+    background: rgb(122, 115, 115);
+}
+.fondo{
+    opacity: 0.7;
 }
 .cabecera{
+    
     display: flex;
     justify-content: space-around;
 }
@@ -15,10 +19,10 @@ body{
 .raya{
     width: 41%;    
 }
-.T1{ 
+.T1{
+     
     text-align: center;
     color: blue;
-    
 }
 nav{
     background: rgba(128, 0, 128, 0.233);
@@ -38,7 +42,7 @@ nav{
 }
 @media(max-width: 600px){
     nav{
-        background: black;
+        background: rgba(128, 0, 128, 0.233);
         flex-direction: column;
     }
     .nav-enlace{
@@ -46,12 +50,3 @@ nav{
     }
 }
 
-form{
-    background: rgb(255, 255, 255);
-    text-align: left;
-    margin-left: 40%;
-    margin-right: 40%;
-}
-legend{
-    text-align: center;
-}
