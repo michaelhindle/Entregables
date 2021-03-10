@@ -1,1 +1,30 @@
 
+.cabecera{
+    display: flex;
+}
+.raya-izq{
+    width: 42,5%;    
+}
+.T1{ 
+    text-align: center;
+    color: blue;
+    width: 15%;
+    
+}
+.raya-der{
+    
+    width: 42,5%;
+}
+form{
+    background: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+legend{
+    
+    text-align: center;
+}
+body{
+    /*background: rgb(122, 115, 115);*/
+}
