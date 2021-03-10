@@ -1,22 +1,27 @@
 
+body{
+    font-family: 'Akaya Telivigala', cursive;
+   /*background: rgb(122, 115, 115);*/
+}
 .cabecera{
     display: flex;
+    justify-content: space-around;
 }
-.raya-izq{
-    width: 42,5%;    
+.titulo{
+    display: inline-block;
+    /*background: chocolate;*/
+    padding: 0px 10px;
+}
+.raya{
+    width: 41%;    
 }
 .T1{ 
     text-align: center;
     color: blue;
-    width: 15%;
     
-}
-.raya-der{
-    
-    width: 42,5%;
 }
 nav{
-    background: purple;
+    background: rgba(128, 0, 128, 0.233);
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -33,7 +38,11 @@ nav{
 }
 @media(max-width: 600px){
     nav{
-        background: rgb(72, 255, 0);
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
     }
 }
 
@@ -45,7 +54,4 @@ form{
 }
 legend{
     text-align: center;
-}
-body{
-    /*background: rgb(122, 115, 115);*/
 }
