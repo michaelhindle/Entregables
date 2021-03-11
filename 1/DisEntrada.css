@@ -20,7 +20,6 @@ body{
     width: 41%;    
 }
 .T1{
-     
     text-align: center;
     color: blue;
 }
@@ -40,13 +39,34 @@ nav{
 .nav-enlace:hover{
     background: rosybrown;
 }
-@media(max-width: 600px){
+.informacion{
+    background: rgba(119, 119, 23, 0.507);
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.info{
+    display: inline-block;
+    padding: 10px 30px;
+    /*background: teal;*/
+    color: white;
+}
+img.info{
+    height: 200px;
+    width: 300px;
+}
+
+
+@media(max-width: 900px){
     nav{
         background: rgba(128, 0, 128, 0.233);
         flex-direction: column;
     }
     .nav-enlace{
         margin: 10px 0px;
+    }
+    img.info{
+        display: none;
     }
 }
 
