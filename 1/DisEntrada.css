@@ -19,9 +19,10 @@ body{
 .raya{
     width: 41%;    
 }
-.T1{
-    text-align: center;
-    color: blue;
+
+img.logo{
+    display: inline-block;
+    height: auto;
 }
 nav{
     background: rgba(128, 0, 128, 0.233);
@@ -39,11 +40,14 @@ nav{
 .nav-enlace:hover{
     background: rosybrown;
 }
+.nav-enlace:active{
+    background: green;
+}
 .informacion{
     background: rgba(119, 119, 23, 0.507);
     display: flex;
     padding: 10px;
-    justify-content: space-around;
+    justify-content: center;
 }
 .info{
     display: inline-block;
@@ -55,7 +59,16 @@ img.info{
     height: 200px;
     width: 300px;
 }
-
+.servicio{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.serv{
+    display: inline-block;
+    padding: 10px 30px;
+    color: whitesmoke;
+}
 
 @media(max-width: 900px){
     nav{
@@ -66,7 +79,7 @@ img.info{
         margin: 10px 0px;
     }
     img.info{
-        display: none;
+        display: none;        
     }
 }
 
