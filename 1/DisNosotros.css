@@ -1,0 +1,40 @@
+body{
+    font-family: 'Akaya Telivigala', cursive;
+    background: rgb(122, 115, 115);
+}
+.cabecera{
+    display: flex;
+    justify-content: space-around;
+}
+.titulo{
+    display: inline-block;
+    /*background: chocolate;*/
+    padding: 0px 10px;
+}
+.raya{
+    width: 41%;    
+}
+
+img.logo{
+    display: inline-block;
+    height: auto;
+}
+nav{
+    background: rgba(128, 0, 128, 0.233);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
+}
+.nav-enlace:active{
+    background: green;
+}

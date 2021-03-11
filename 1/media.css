@@ -1,0 +1,12 @@
+@media(max-width: 900px){
+    nav{
+        background: rgba(128, 0, 128, 0.233);
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0px;
+    }
+    img.info{
+        display: none;        
+    }
+}
