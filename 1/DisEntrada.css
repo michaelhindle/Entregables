@@ -1,14 +1,4 @@
 
-html{
-    background-color: rgba(122, 115, 115, 0.9);
-}
-body{
-    background: url(sobreruedas.png) no-repeat center;
-    opacity: 0.6;
-}
-.letras{
-    font-family: 'Akaya Telivigala', cursive;
-}
 .cabecera{
     
     display: flex;
@@ -36,7 +26,7 @@ nav{
 .nav-enlace{
     display: inline-block;
     background: salmon;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px 30px;
     text-decoration: none;
 }
@@ -56,7 +46,7 @@ nav{
     display: inline-block;
     padding: 10px 30px;
     /*background: teal;*/
-    color: white;
+    color: rgb(255, 255, 255);
 }
 img.info{
     height: 200px;
