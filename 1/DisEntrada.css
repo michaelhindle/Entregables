@@ -36,6 +36,9 @@ nav{
 .nav-enlace:active{
     background: green;
 }
+h2{
+    padding-left:10px;
+}
 .informacion{
     background: rgba(119, 119, 23, 0.507);
     display: flex;
