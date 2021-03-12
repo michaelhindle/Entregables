@@ -18,29 +18,31 @@ img.logo{
     height: auto;
 }
 nav{
-    background: rgba(128, 0, 128, 0.233);
+    background: rgba(43, 65, 35, 0.233);
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
 .nav-enlace{
     display: inline-block;
-    background: salmon;
+    background: rgb(2, 56, 0);
     color: rgb(255, 255, 255);
     padding: 10px 30px;
     text-decoration: none;
 }
 .nav-enlace:hover{
-    background: rosybrown;
+    background: rgb(0, 94, 36);
 }
 .nav-enlace:active{
     background: green;
 }
 h2{
+    color: rgb(10, 13, 56);
+    text-align: center;
     padding-left:10px;
 }
 .informacion{
-    background: rgba(119, 119, 23, 0.507);
+    background: rgba(26, 70, 18, 0.507);
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -61,6 +63,7 @@ img.info{
     justify-content: space-around;
 }
 .serv{
+    background: rgba(26, 70, 18, 0.507);
     display: inline-block;
     padding: 10px 30px;
     color: whitesmoke;

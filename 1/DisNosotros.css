@@ -17,21 +17,53 @@ img.logo{
     height: auto;
 }
 nav{
-    background: rgba(128, 0, 128, 0.233);
+    background: rgba(43, 65, 35, 0.233);
     padding: 10px;
     display: flex;
     justify-content: space-around;
 }
 .nav-enlace{
     display: inline-block;
-    background: salmon;
+    background: rgb(2, 56, 0);
     color: white;
     padding: 10px 30px;
     text-decoration: none;
 }
 .nav-enlace:hover{
-    background: rosybrown;
+    background: rgb(0, 94, 36);
 }
 .nav-enlace:active{
     background: green;
+}
+.contenido{
+    margin: 0px auto;
+    width: 90%;
+}
+.alinear{
+    display: flex;
+}
+.anio{
+    font-size: 50px;
+}
+.column{
+    margin: 0px auto;
+    width: 90%;
+    background: grey;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.55);
+}
+h2{
+    text-align: center;
+    color: rgb(10, 13, 56)
+}
+.unidades{
+    font-size: 30px;
+    color: rgb(69, 69, 69);
+}
+.ben{
+    font-size: 35px;
+    color: darkgreen;
 }
