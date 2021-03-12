@@ -41,19 +41,22 @@ nav{
 }
 .alinear{
     display: flex;
+    flex-wrap: wrap;
 }
 .anio{
     font-size: 50px;
 }
 .column{
     margin: 0px auto;
-    width: 90%;
-    background: grey;
+    width: 23%;
+    background: rgb(100, 100, 100);
     border: 1px solid black;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+    margin-bottom: 55px;
 }
 h2{
     text-align: center;
@@ -61,7 +64,7 @@ h2{
 }
 .unidades{
     font-size: 30px;
-    color: rgb(69, 69, 69);
+    color: rgb(31, 31, 31);
 }
 .ben{
     font-size: 35px;

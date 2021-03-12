@@ -1,6 +1,6 @@
 @media(max-width: 900px){
     nav{
-        background: rgba(128, 0, 128, 0.233);
+        background: rgba(43, 65, 35, 0.233);
         flex-direction: column;
     }
     .nav-enlace{
@@ -8,5 +8,17 @@
     }
     img.info{
         display: none;        
+    }
+}
+@media(max-width: 1250px){
+    .column{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 900px){
+    .column{
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
