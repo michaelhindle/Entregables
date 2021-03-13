@@ -46,7 +46,18 @@ h3.tituloR{
     margin: 0 10px;
 }
 .enviado{
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55);
+    background: rgb(0, 128, 0);
     margin: 10px 0;
+}
+.enviado:hover{
+    background: rgb(0, 82, 0);
+}
+.enviado:active{
+    background: rgb(32, 131, 32);
 }
 .socio{
     display: flex;
@@ -109,6 +120,7 @@ h3{
     padding: 10px 45px;
 }
 .compra{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.55) ;
     background: darkgoldenrod;
     border-radius: 10px;
     padding: 10px;
