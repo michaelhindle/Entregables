@@ -35,6 +35,48 @@ nav{
 .nav-enlace:active{
     background: green;
 }
+
+.entrar{
+    float: right;
+}
+h3.tituloR{
+    font-size: 30px;
+}
+#Email{
+    margin: 0 10px;
+}
+.enviado{
+    margin: 10px 0;
+}
+.socio{
+    display: flex;
+}
+.si{
+    margin: 0 20px ;
+}
+
+
+.datos{
+    margin: 15px 45px;
+}
+.dato{
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.promocion{
+    font-size: 40px;
+}
 .alinear{
     margin: 0px auto;
     width: 90%;
