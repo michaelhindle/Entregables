@@ -35,3 +35,49 @@ nav{
 .nav-enlace:active{
     background: green;
 }
+.alinear{
+    margin: 0px auto;
+    width: 90%;
+}
+.ofertas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.oferta{
+    margin: 0px auto;
+    background: rgba(100,100,100,0.9);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.55);
+    box-sizing: border-box;
+    margin-bottom: 55px;
+}
+h2{
+    text-align: center;
+    color: rgb(10, 13, 56);
+}
+h3{
+    padding: 0 30px;
+}
+.unidades{
+    padding: 5px 45px;
+}
+.precio{
+    padding: 10px 45px;
+}
+.compra{
+    background: darkgoldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 35px;
+    color: chartreuse;
+    text-decoration: none;
+}
+.compra:hover{
+    background: darkblue;
+}
+.compra:active{
+    background: rgb(22, 22, 255);
+}
