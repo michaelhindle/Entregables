@@ -70,12 +70,22 @@ h3.tituloR{
 }
 .dato{
     margin: 5px 0;
+    
 }
 
+.tipo{
+    margin: 0 45px;
+}
+.optgroup{
+    border-radius: 5px;
+    background: rgb(165, 165, 165);
+    border: 2px solid black;
+}
 
-
-
-
+.area{
+    margin: 20px 45px;
+    
+}
 
 
 
