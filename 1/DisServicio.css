@@ -45,6 +45,9 @@ h3.tituloR{
 #Email{
     margin: 0 10px;
 }
+.datos input{
+    margin-left: 10px;
+}
 .enviado{
     padding: 5px 20px;
     border-radius: 10px;

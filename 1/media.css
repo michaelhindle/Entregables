@@ -1,4 +1,4 @@
-@media(max-width: 900px){
+@media screen and (max-width: 900px){
     nav{
         background: rgba(43, 65, 35, 0.233);
         flex-direction: column;
@@ -12,16 +12,26 @@
     .entrar{
         float: none;
     }
+
 }
 @media(max-width: 1250px){
     .column{
         width: 45%;
         margin-bottom: 20px;
     }
+    
 }
 @media(max-width: 900px){
     .column{
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+@media (max-width: 1250px) {
+    .cuerpo{
+        flex-wrap: wrap;
+    }
+    .columna1{
+        max-width: 100%;
     }
 }
