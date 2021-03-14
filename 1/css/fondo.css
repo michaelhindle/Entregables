@@ -2,7 +2,7 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .fondo{
-    background-image: url(sobreruedas.png) ;
+    background-image: url(../img/sobreruedas.png) ;
     background-repeat:  no-repeat;
     background-position: center center;
     position: relative;
